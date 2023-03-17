@@ -27,15 +27,34 @@ div:hover {
 
 .card-1 {
     background-image: linear-gradient(to right top, blue, skyblue, blue);
-    left: calc(50vw - 100px - 250px);
+    left: calc(50vw - 100px - 500px);
+    border:7px inset #250598;
+    filter: drop-shadow(16px 10px 4px #3a3af9);
 }
 
 .card-2 {
     background-image: linear-gradient(to right top, green, lime, green);
-    left: calc(50vw - 100px);
+    left: calc(50vw - 350px);
+    border: 7px ridge #0dcc4a;
+    filter: drop-shadow(16px 10px 4px #034212);
+
 }
 
 .card-3 {
     background-image: linear-gradient(to right top, purple, pink, purple);
-    left: calc(50vw - 100px + 250px);
+    left: calc(50vw - 110px);
+    border:7px groove #cf10dd;
+    filter: drop-shadow(16px 10px 4px #600966);
+}
+.card-4 {
+    background-image: linear-gradient(to right top, rgb(161, 252, 81), rgb(73, 245, 15), rgb(156, 253, 114));
+    left: calc(70vw - 115px);
+    border:7px groove #177f20;
+    filter: drop-shadow(16px 10px 4px #83db11);
+}
+.card-5 {
+        background-image: linear-gradient(to right top, rgb(182, 43, 82), pink, rgb(198, 22, 78));
+        left: calc(90vw - 110px);
+        border:7px groove #bf1f5d;
+        filter: drop-shadow(16px 10px 4px #e30b85);
 }
